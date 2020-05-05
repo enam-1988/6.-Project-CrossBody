@@ -1,0 +1,125 @@
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+.header h1 {
+    font-size: 120px;
+    line-height: 110px;
+}
+
+.head-other-text{
+	left: 50%;
+	top: 80%;
+}
+
+
+.head-other-text h6{
+	font-size: 11px;
+	letter-spacing: 0px;
+}
+
+
+element.style {
+    transform: none;
+}
+
+
+
+/**/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.over-lay h1 {
+    font-size: 100px;
+    line-height: 110px;
+}
+
+.head-other-text{
+	left: 50%;
+	top: 80%;
+}
+
+
+.head-other-text h6{
+	font-size: 11px;
+	letter-spacing: 0px;
+}
+
+.header-side-text {
+    top: 63%;
+    right: -67px;
+}
+
+
+element.style {
+    transform: none;
+}
+
+/**/
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+.header h1 {
+    font-size: 75px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.header-side-text{
+	display: none;
+}
+.head-other-text{
+	left: 50%;
+	top: 75%;
+}
+
+
+.head-other-text h6{
+	font-size: 10px;
+	letter-spacing: 0px;
+}
+
+
+.header-side-text {
+    top: 63%;
+    right: -67px;
+}
+
+
+.footer h2 {
+    text-align: center;
+}
+
+
+element.style {
+    transform: none ! important;
+}
+
+.header-side-text h4{
+	display: none;
+}
+
+.bgcolor.scrolled{
+  background-color: rgba(0,0,0,.9);
+  transition: all 0.9s ease;
+}
+
+
+
+/**/
+}
